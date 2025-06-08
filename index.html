@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart-Box - 智能手表全能工具箱</title>
+    <title>Smart-Box - 智能手环全能工具箱</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -63,7 +63,6 @@
         .logo-icon {
             width: 50px;
             height: 50px;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
             border-radius: 15px;
             display: flex;
             align-items: center;
@@ -374,22 +373,13 @@
             box-shadow: var(--shadow);
             transition: var(--transition);
             position: relative;
-            height: 400px;
+            height: 500px;
             background: linear-gradient(45deg, #1a1a3a, #0a0a1f);
             display: flex;
             align-items: center;
             justify-content: center;
         }
-        
-        .screenshot::before {
-            content: '';
-            position: absolute;
-            width: 90%;
-            height: 95%;
-            background: #000;
-            border-radius: 15px;
-            z-index: 1;
-        }
+    
         
         .screenshot-content {
             position: relative;
@@ -634,9 +624,7 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <div class="logo-icon">
-                        <i class="fas fa-box"></i>
-                    </div>
+                    <img src=".\rpk\logo.png" alt="Smart-Box Logo" class="logo-icon">
                     <div class="logo-text">Smart-Box</div>
                 </div>
                 <nav>
@@ -655,9 +643,9 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <span class="tagline">智能手表全能工具箱</span>
-                    <h1>解锁您智能手表的全部潜能</h1>
-                    <p>Smart-Box 是一个功能强大的快应用工具箱，专为智能手表设计。提供设备控制、传感器管理、系统工具等一站式解决方案，让您的智能手表变得更加强大。</p>
+                    <span class="tagline">智能手环全能工具箱</span>
+                    <h1>解锁您智能手环的全部潜能</h1>
+                    <p>Smart-Box 是一个功能强大的快应用工具箱，专为智能手环设计。提供设备控制、传感器管理、系统工具等一站式解决方案，让您的智能手环变得更加强大。</p>
                     <div class="hero-buttons">
                         <a href="#download" class="btn">
                             <i class="fas fa-download"></i> 立即下载
@@ -705,7 +693,7 @@
                         <i class="fas fa-sun"></i>
                     </div>
                     <h3>亮度控制</h3>
-                    <p>精确调节手表屏幕亮度，支持自动/手动模式切换，延长电池续航。</p>
+                    <p>精确调节手环屏幕亮度，支持自动/手动模式切换，延长电池续航。</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -754,56 +742,18 @@
             </div>
             <div class="screenshot-grid">
                 <div class="screenshot">
-                    <div class="screenshot-content">
-                        <div class="screenshot-bar">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <h4>亮度控制</h4>
-                        <ul>
-                            <li>自动/手动亮度切换</li>
-                            <li>实时亮度级别显示</li>
-                            <li>快速设置最大亮度</li>
-                            <li>夜间模式支持</li>
-                            <li>亮度微调功能</li>
-                        </ul>
-                    </div>
+                    <img src=".\rpk\1.png">
                 </div>
                 <div class="screenshot">
-                    <div class="screenshot-content">
-                        <div class="screenshot-bar">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <h4>设备信息</h4>
-                        <ul>
-                            <li>系统版本查看</li>
-                            <li>设备型号识别</li>
-                            <li>存储空间监控</li>
-                            <li>电池健康状态</li>
-                            <li>传感器数据概览</li>
-                        </ul>
-                    </div>
+                    <img src=".\rpk\2.png">
                 </div>
                 <div class="screenshot">
-                    <div class="screenshot-content">
-                        <div class="screenshot-bar">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <h4>振动控制</h4>
-                        <ul>
-                            <li>自定义振动模式</li>
-                            <li>强度多级调节</li>
-                            <li>持续时间设置</li>
-                            <li>模式快捷切换</li>
-                            <li>振动预览功能</li>
-                        </ul>
-                    </div>
+                    <img src=".\rpk\3.png">
                 </div>
+                <div class="screenshot">
+                    <img src=".\rpk\4.png">
+                </div>
+                
             </div>
         </div>
     </section>
@@ -812,7 +762,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>应用优势</h2>
-                <p>专为智能手表优化的卓越体验</p>
+                <p>专为智能手环优化的卓越体验</p>
             </div>
             <div class="stats">
                 <div class="stat-card">
@@ -824,12 +774,8 @@
                     <div class="stat-label">兼容性</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">2.0</div>
+                    <div class="stat-value">1.0.2</div>
                     <div class="stat-label">最新版本</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">99%</div>
-                    <div class="stat-label">用户满意度</div>
                 </div>
             </div>
         </div>
@@ -840,7 +786,7 @@
             <div class="cta">
                 <div class="cta-content">
                     <h2>立即体验 Smart-Box</h2>
-                    <p>下载全能工具箱，释放您智能手表的全部潜力</p>
+                    <p>下载全能工具箱，释放您智能手环的全部潜力</p>
                     <a href="#" class="btn">
                         <i class="fas fa-download"></i> 下载应用 (v1.0.2)
                     </a>
@@ -857,12 +803,10 @@
             <div class="footer-content">
                 <div class="footer-info">
                     <div class="footer-logo">
-                        <div class="logo-icon">
-                            <i class="fas fa-box"></i>
-                        </div>
+                        <img src=".\rpk\logo.png" alt="Smart-Box Logo" class="logo-icon">
                         <div class="logo-text">Smart-Box</div>
                     </div>
-                    <p>智能手表全能工具箱，提供设备控制、系统管理和实用工具一站式解决方案。</p>
+                    <p>智能手环全能工具箱，提供设备控制、系统管理和实用工具一站式解决方案。</p>
                 </div>
                 <div class="footer-links">
                     <h3>快速链接</h3>
